@@ -1,0 +1,37 @@
+
+
+
+body {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto ;
+    gap: 15px;
+
+    .box {
+        background-color: antiquewhite;
+        padding: 10px;
+        border: 1px solid grey;
+    }
+}
+
+
+#box-1 {
+    background-color: burlywood;
+    color: #191919;
+}
+
+#box-2 {
+    color: #292929;
+}
+
+
+
+
+
+// #demo {
+//     width: 200px;
+//     height: 200px;
+//     background-color: teal;
+
+// }

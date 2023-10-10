@@ -1,0 +1,32 @@
+
+body {
+
+    .btn {
+        padding: 8px 25px;
+        font-size: 24px;
+    }
+    main {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto ;
+        gap: 15px;
+
+        > div {
+            padding: 20px;
+        }
+
+    }
+    .box {
+        background-color: antiquewhite;
+        padding: 10px;
+    }
+
+    .active {
+        background-color: #c9e89b;
+    }
+
+    .inactive {
+        background-color: #e2a8a8;
+    }
+}

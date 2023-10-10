@@ -100,3 +100,59 @@ console.log(vat)
 
 */
 
+
+/*
+HUR MAN SKRIVER HTML IN I ETT ELEMENT PÅ SIN SIDA MED JAVASCRIPT
+----------------------------------------------------------------------------
+
+
+// box one
+
+
+let boxOne = document.getElementById('box-one')
+
+boxOne.innerHTML = '<div style="background-color: red; color: yellow;">Björn Andersson</div>'
+boxOne.innerHTML += '<div style="background-color: green; color: orange;">Björn Andersson</div>'
+
+// box two
+
+let boxTwo = document.getElementById('box-two')
+
+boxTwo.innerHTML = 'Björn är bäst'
+*/
+
+let getById = document.getElementById('box-one')
+let className = document.getElementsByClassName('box')
+let getByName = document.getElementsByName('info')
+let getByTagName = document.getElementsByTagName('div')
+let getByQuery = document.querySelectorAll('.box')
+    console.log(getById)
+
+// className[0].innerText = 'Vänster'
+// className[1].innerText = 'Höger'
+
+// getByName[0].innerText = 'test'
+// getByName[1].innerText = 'test 1'
+
+// getByTagName[0].innerText = 'test 3'
+// getByTagName[1].innerText = 'test två'
+// getByTagName[2].innerText = 'test två'
+
+
+
+// FOR LOOP
+
+// for (let element of getByName) {
+//     element.innerText = 'Hejsan'
+// }
+
+// getByQuery[0].innerText = 'test'
+// getByQuery[1].innerText = 'test'
+// getByQuery[2].innerText = 'test'
+
+for (let element of getByQuery) {
+    element.innerText = 'test5'
+}
+
+
+getById.innerHTML = `<div style=" padding: 50px; ">padding</div>`
